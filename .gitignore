@@ -179,3 +179,16 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Project specific
+# PyTorch models
+*.pth
+*.pt
+moe_model.pth
+
+# Gradio
+gradio_cached_examples/
+
+# IDE
+.vscode/
+.idea/

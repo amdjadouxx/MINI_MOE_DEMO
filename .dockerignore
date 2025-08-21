@@ -1,0 +1,12 @@
+# Exclure les fichiers inutiles pour Docker
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.git/
+.gitignore
+.gitattributes
+*.md
+CONDA_SETUP.md
+console_moe.py
+*.bat
